@@ -64,19 +64,17 @@ nav a.active {
 
 /* Language Switcher */
 .language-switcher button {
-    background-color: var(--caramel-brown);
-    color: var(--cream-white);
+    background-color: transparent;
     border: none;
-    padding: 0.5rem 0.8rem;
-    border-radius: 5px;
+    padding: 0;
     cursor: pointer;
-    margin-left: 0.5rem;
-    font-weight: bold;
-    transition: background-color 0.3s;
+    margin: 0 5px;
 }
 
-.language-switcher button:hover {
-    background-color: var(--dark-chocolate);
+.language-switcher button img {
+    width: 32px;
+    height: 32px;
+    display: block;
 }
 
 /* Hero Section (Landing Page) */
