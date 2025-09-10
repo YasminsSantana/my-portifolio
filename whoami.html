@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Am I - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo" data-key="nav_home">Home</a>
+            <ul>
+                <li><a href="whoami.html" class="active" data-key="nav_whoami">Who Am I</a></li>
+                <li><a href="illustrations.html" data-key="nav_illustrations">Illustrations</a></li>
+                <li><a href="designs.html" data-key="nav_designs">Designs</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('es')">ES</button>
+            <button onclick="setLanguage('pt')">PT-BR</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 data-key="whoami_title">Who Am I?</h1>
+        <div class="about-section">
+            <div class="about-image">
+                <img src="assets/images/profile-placeholder.png" alt="Profile Picture">
+            </div>
+            <div class="about-text">
+                <h2 data-key="about_me_heading">About Me</h2>
+                <p data-key="about_me_p1">
+                    Hello! I'm a passionate designer and illustrator with a love for creating vibrant and engaging digital experiences. My work is heavily inspired by cute aesthetics and functional design. I believe that good design should not only look beautiful but also solve problems and bring joy to users.
+                </p>
+                <p data-key="about_me_p2">
+                    When I'm not designing, you can find me sketching, exploring new cafes, or playing with my dog. Feel free to look through my work and get in touch!
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p data-key="footer_text">&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

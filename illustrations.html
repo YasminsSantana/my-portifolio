@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustrations - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo" data-key="nav_home">Home</a>
+            <ul>
+                <li><a href="whoami.html" data-key="nav_whoami">Who Am I</a></li>
+                <li><a href="illustrations.html" class="active" data-key="nav_illustrations">Illustrations</a></li>
+                <li><a href="designs.html" data-key="nav_designs">Designs</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('es')">ES</button>
+            <button onclick="setLanguage('pt')">PT-BR</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 data-key="illustrations_title">Illustrations Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="assets/images/placeholder.png" alt="Illustration Project 1">
+                <div class="overlay">
+                    <h3 data-key="project1_title">Project Title 1</h3>
+                    <p data-key="project1_desc">A short description of this amazing illustration project.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/placeholder.png" alt="Illustration Project 2">
+                <div class="overlay">
+                    <h3 data-key="project2_title">Project Title 2</h3>
+                    <p data-key="project2_desc">A short description of this amazing illustration project.</p>
+                </div>
+            </div>
+            </div>
+    </main>
+
+    <footer class="footer">
+        <p data-key="footer_text">&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

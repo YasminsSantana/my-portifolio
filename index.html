@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Designer Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <button type="button" onclick="greet()">Click me!</button>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <a href="index.html" class="logo" data-key="nav_home">Home</a>
+            <ul>
+                <li><a href="whoami.html" data-key="nav_whoami">Who Am I</a></li>
+                <li><a href="illustrations.html" data-key="nav_illustrations">Illustrations</a></li>
+                <li><a href="designs.html" data-key="nav_designs">Designs</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">EN</button>
+            <button onclick="setLanguage('es')">ES</button>
+            <button onclick="setLanguage('pt')">PT-BR</button>
+        </div>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1 data-key="hero_title">Welcome to My Portfolio</h1>
+            <p data-key="hero_subtitle">A creative designer passionate about crafting beautiful user experiences.</p>
+            <a href="illustrations.html" class="cta-button" data-key="hero_button">View My Work</a>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <p data-key="footer_text">&copy; 2025 Yasmin Santana. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
