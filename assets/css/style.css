@@ -1,4 +1,4 @@
-/* Pompompurin Color Palette */
+
 :root {
     --pudding-yellow: #F9E498;
     --caramel-brown: #8D5B2D;
@@ -93,13 +93,14 @@ nav a.active {
 .hero-content h1 {
     font-size: 3rem;
     color: var(--dark-chocolate);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     color: var(--caramel-brown);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
 }
 
 .cta-button {
