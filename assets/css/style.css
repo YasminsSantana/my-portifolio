@@ -190,6 +190,10 @@ nav a.active {
     margin-top: 2rem;
 }
 
+.footer a {
+    text-decoration: underline;
+}
+
 /* About Section (Who Am I Page) */
 .about-section {
     display: flex;

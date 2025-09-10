@@ -21,6 +21,7 @@ const translations = {
         design_project1_desc: "A short description of this clean and modern design project.",
         design_project2_title: "Design Project 2",
         design_project2_desc: "A short description of this clean and modern design project.",
+        footer_contact: "Contact me at ",
         footer_text: "© 2025 Yasmin Santana. All Rights Reserved.",
     },
     es: {
@@ -45,6 +46,7 @@ const translations = {
         design_project1_desc: "Una breve descripción de este proyecto de diseño limpio y moderno.",
         design_project2_title: "Proyecto de Diseño 2",
         design_project2_desc: "Una breve descripción de este proyecto de diseño limpio y moderno.",
+        footer_contact: "Contáctame en ",
         footer_text: "© 2025 Yasmin Santana. Todos los Derechos Reservados.",
     },
     pt: {
@@ -69,6 +71,7 @@ const translations = {
         design_project1_desc: "Uma breve descrição deste projeto de design limpo e moderno.",
         design_project2_title: "Projeto de Design 2",
         design_project2_desc: "Uma breve descrição deste projeto de design limpo e moderno.",
+        footer_contact: "Me contate em ",
         footer_text: "© 2025 Yasmin Santana. Todos os Direitos Reservados.",
     }
 };
@@ -81,7 +84,7 @@ const setLanguage = (language) => {
 
 // Function to translate the page content
 const translatePage = () => {
-    const language = localStorage.getItem('language') || 'en'; // Default to English
+    const language = localStorage.getItem('language') || 'pt'; // Default to English
     document.querySelectorAll('[data-key]').forEach(element => {
         const key = element.getAttribute('data-key');
         if (translations[language][key]) {
