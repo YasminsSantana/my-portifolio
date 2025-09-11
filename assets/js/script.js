@@ -1,7 +1,7 @@
 const translations = {
     en: {
         nav_home: "Home",
-        nav_whoami: "Who Am I",
+        nav_whoami: "About me",
         nav_illustrations: "Illustrations",
         nav_designs: "Designs",
         hero_title: "Welcome to my portfolio",
@@ -26,7 +26,7 @@ const translations = {
     },
     es: {
         nav_home: "Inicio",
-        nav_whoami: "¿Quién Soy?",
+        nav_whoami: "Sobre mí",
         nav_illustrations: "Ilustraciones",
         nav_designs: "Diseños",
         hero_title: "Bienvenido a mi portafolio",
@@ -51,7 +51,7 @@ const translations = {
     },
     pt: {
         nav_home: "Início",
-        nav_whoami: "Quem Sou Eu",
+        nav_whoami: "Sobre mim",
         nav_illustrations: "Ilustrações",
         nav_designs: "Designs",
         hero_title: "Bem-vindo ao meu portfólio",
