@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Illustrations - Portfolio</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <style>
+        .section-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+        .link-card {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .link-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .link-card-content {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -30,23 +59,29 @@
     </header>
 
     <main class="container">
-        <h1 data-key="illustrations_title">Illustrations Gallery</h1>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="../assets/images/placeholder.png" alt="Illustration Project 1">
-                <div class="overlay">
-                    <h3 data-key="project1_title">Project Title 1</h3>
-                    <p data-key="project1_desc">A short description of this amazing illustration project.</p>
+        <h1 data-key="illustrations_title">Illustrations</h1>
+        <p data-key="illustrations_subtitle" style="text-align: center; margin-bottom: 40px;">Select a category to explore.</p>
+
+        <div class="section-links">
+            <a href="./colorstudies.html" class="link-card">
+                <img src="../assets/images/studies.jpg" alt="A preview of color studies">
+                <div class="link-card-content">
+                    <h3 data-key="section_color_studies">Color Studies</h3>
                 </div>
-            </div>
-            <div class="gallery-item">
-                <img src="../assets/images/placeholder.png" alt="Illustration Project 2">
-                <div class="overlay">
-                    <h3 data-key="project2_title">Project Title 2</h3>
-                    <p data-key="project2_desc">A short description of this amazing illustration project.</p>
+            </a>
+            <a href="./personalprojects.html" class="link-card">
+                <img src="../assets/images/placeholder.png" alt="A preview of personal projects">
+                <div class="link-card-content">
+                    <h3 data-key="section_personal_projects">Personal Projects</h3>
                 </div>
-            </div>
-            </div>
+            </a>
+            <a href="./pixelart.html" class="link-card">
+                <img src="../assets/images/placeholder.png" alt="A preview of pixel art">
+                <div class="link-card-content">
+                    <h3 data-key="section_pixel_art">Pixel Art</h3>
+                </div>
+            </a>
+        </div>
     </main>
 
     <footer class="footer">

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Projects - Portfolio</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo" data-key="nav_home">Home</a>
+            <ul>
+                <li><a href="whoami.html" data-key="nav_whoami">About me</a></li>
+                <li><a href="color-studies.html" data-key="nav_color_studies">Color Studies</a></li>
+                <li><a href="personal-projects.html" class="active" data-key="nav_personal_projects">Personal Projects</a></li>
+                <li><a href="pixel-art.html" data-key="nav_pixel_art">Pixel Art</a></li>
+                <li><a href="designs.html" data-key="nav_designs">Designs</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')" aria-label="Switch to English">
+                <img src="../assets/images/flags/united-kingdom.png" alt="English">
+            </button>
+            <button onclick="setLanguage('es')" aria-label="Switch to Spanish">
+                <img src="../assets/images/flags/spain.png" alt="Español">
+            </button>
+            <button onclick="setLanguage('pt')" aria-label="Switch to Portuguese">
+                <img src="../assets/images/flags/brazil.png" alt="Português">
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 data-key="personal_projects_title">Personal Projects Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="../assets/images/placeholder.png" alt="Personal Project">
+                <div class="overlay">
+                    <h3 data-key="personal1_title">Project Title 1</h3>
+                    <p data-key="personal1_desc">A short description of this personal project.</p>
+                </div>
+            </div>
+            </div>
+    </main>
+
+    <footer class="footer">
+        <p data-key="footer_text">&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
