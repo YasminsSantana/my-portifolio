@@ -12,6 +12,7 @@ const translations = {
         about_me_p1: "Hello! I am a designer and illustrator passionate about creating vibrant and engaging projects. My work is heavily inspired by cute aesthetics and functional design. I believe that good design should not only be beautiful but also solve problems and carry meaning.",
         about_me_p2: "When I'm not designing, you can find me sketching, exploring new coffee shops, or playing with my dog. Feel free to check out my work and get in touch!",
         illustrations_title: "Illustrations Gallery",
+        illustrations_subtitle: "Select a category to explore",
         designs_title: "Designs Gallery",
         project1_title: "Project Title 1",
         project1_desc: "A short description of this amazing illustration project.",
@@ -23,6 +24,9 @@ const translations = {
         design_project2_desc: "A short description of this clean and modern design project.",
         footer_contact: "Contact me at ",
         footer_text: "© 2025 Yasmin Santana. All Rights Reserved.",
+        section_color_studies: "Color Studies",
+        section_personal_projects: "Personal Projects",
+        section_pixel_art: "Pixel Art",
     },
     es: {
         nav_home: "Inicio",
@@ -37,6 +41,7 @@ const translations = {
         about_me_p1: "¡Hola! Soy una diseñadora e ilustradora apasionada por crear proyectos vibrantes y atractivos. Mi trabajo está fuertemente inspirado en la estética adorable (cute) y el diseño funcional. Creo que un buen diseño no solo debe ser bonito, sino también resolver problemas y tener un significado.",
         about_me_p2: "Cuando no estoy diseñando, puedes encontrarme dibujando, explorando nuevos cafés o jugando con mi perro. ¡No dudes en ver mi trabajo y ponerte en contacto!",
         illustrations_title: "Galería de Ilustraciones",
+        illustrations_subtitle: "Selecciona una categoría para explorar",
         designs_title: "Galería de Diseños",
         project1_title: "Título del Proyecto 1",
         project1_desc: "Una breve descripción de este increíble proyecto de ilustración.",
@@ -48,6 +53,9 @@ const translations = {
         design_project2_desc: "Una breve descripción de este proyecto de diseño limpio y moderno.",
         footer_contact: "Contáctame en ",
         footer_text: "© 2025 Yasmin Santana. Todos los Derechos Reservados.",
+        section_color_studies: "Estudios de Color",
+        section_personal_projects: "Proyectos Personales",
+        section_pixel_art: "Pixel Art",
     },
     pt: {
         nav_home: "Início",
@@ -62,6 +70,7 @@ const translations = {
         about_me_p1: "Olá! Sou uma designer e ilustradora apaixonada por criar projetos vibrantes e envolventes. Meu trabalho é fortemente inspirado pela estética fofa e pelo design funcional. Acredito que um bom design não deve apenas ser bonito, mas também resolver problemas e carregar um significado.",
         about_me_p2: "Quando não estou desenhando, você pode me encontrar esboçando, explorando novos cafés ou brincando com meu cachorro. Sinta-se à vontade para ver meu trabalho e entrar em contato!",
         illustrations_title: "Galeria de Ilustrações",
+        illustrations_subtitle: "Selecione uma categoria para ver mais",
         designs_title: "Galeria de Designs",
         project1_title: "Título do Projeto 1",
         project1_desc: "Uma breve descrição deste incrível projeto de ilustração.",
@@ -73,6 +82,9 @@ const translations = {
         design_project2_desc: "Uma breve descrição deste projeto de design limpo e moderno.",
         footer_contact: "Me contate em ",
         footer_text: "© 2025 Yasmin Santana. Todos os Direitos Reservados.",
+        section_color_studies: "Estudos de Cor",
+        section_personal_projects: "Projetos Pessoais",
+        section_pixel_art: "Pixel Arts",
     }
 };
 
