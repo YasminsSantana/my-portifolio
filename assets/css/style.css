@@ -288,3 +288,109 @@ nav a.active {
         text-align: center;
     }
 }
+
+
+
+
+
+.container .subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--caramel-brown);
+    margin-top: -1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Design Category Page Styles */
+.category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.category-card {
+    background-color: #fff;
+    border: 2px solid var(--pudding-yellow);
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    color: var(--dark-chocolate);
+}
+
+.category-card h2 {
+    color: var(--dark-chocolate);
+    margin-top: 0;
+}
+
+.category-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Branding Page Styles */
+.branding-project {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom: 3rem;
+}
+
+.branding-project:last-child {
+    margin-bottom: 0;
+}
+
+.branding-text h2 {
+    font-size: 2.2rem;
+    color: var(--dark-chocolate);
+    border-bottom: 3px solid var(--pudding-yellow);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.branding-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.branding-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.branding-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 250px; /* Allows images to grow and shrink */
+    max-width: 32%; /* Ensures max 3 images per row */
+}
+
+/* Adjustments for responsive design */
+@media (max-width: 992px) {
+    .branding-images img {
+        max-width: 48%; /* 2 images per row */
+    }
+}
+
+@media (max-width: 576px) {
+    .branding-images img {
+        max-width: 100%; /* 1 image per row */
+    }
+}

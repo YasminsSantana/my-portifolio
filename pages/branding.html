@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding - Portfolio</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html" class="logo" data-key="nav_home">Home</a>
+            <ul>
+                <li><a href="./whoami.html" data-key="nav_whoami">About me</a></li>
+                <li><a href="./illustrations.html" data-key="nav_illustrations">Illustrations</a></li>
+                <li><a href="./socialmedia.html" data-key="nav_social_media">Social Media</a></li>
+                <li><a href="./branding.html" class="active" data-key="nav_branding">Branding</a></li>
+            </ul>
+        </nav>
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')" aria-label="Switch to English">
+                <img src="../assets/images/flags/united-kingdom.png" alt="English">
+            </button>
+            <button onclick="setLanguage('es')" aria-label="Switch to Spanish">
+                <img src="../assets/images/flags/spain.png" alt="Español">
+            </button>
+            <button onclick="setLanguage('pt')" aria-label="Switch to Portuguese">
+                <img src="../assets/images/flags/brazil.png" alt="Português">
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 data-key="branding_title">Branding Projects</h1>
+
+        <section class="branding-project">
+            <div class="branding-text">
+                <h2 data-key="pata_fofa_title">Pata Fofa</h2>
+                <p data-key="pata_fofa_desc">A complete branding identity project for "Pata Fofa", a cozy and friendly local pet shop. The project included logo design, color palette selection, typography, and promotional materials, all aimed at conveying warmth and care for pets.</p>
+            </div>
+            <div class="branding-images">
+                <img src="../assets/images/placeholder.png" alt="Pata Fofa Project Image 1">
+                <img src="../assets/images/placeholder.png" alt="Pata Fofa Project Image 2">
+            </div>
+        </section>
+
+        <section class="branding-project">
+            <div class="branding-text">
+                <h2 data-key="iteach_title">Iteach Rebranding</h2>
+                <p data-key="iteach_desc">This project involved a full rebranding for "Iteach", an online educational platform. The goal was to modernize its image, making it more appealing to a younger audience while maintaining a professional and trustworthy feel. The new identity was applied across their website and mobile app.</p>
+            </div>
+             <div class="branding-images">
+                <img src="../assets/images/placeholder.png" alt="Iteach Project Image 1">
+            </div>
+        </section>
+
+        <section class="branding-project">
+            <div class="branding-text">
+                <h2 data-key="dona_moranga_title">Dona Moranga</h2>
+                <p data-key="dona_moranga_desc">"Dona Moranga" is a brand of artisanal pumpkin jams and sweets. The branding and packaging design focused on a rustic, homemade aesthetic, using organic elements and warm colors to evoke a sense of tradition and delicious, natural flavor.</p>
+            </div>
+             <div class="branding-images">
+                <img src="../assets/images/placeholder.png" alt="Dona Moranga Project Image 1">
+                <img src="../assets/images/placeholder.png" alt="Dona Moranga Project Image 2">
+                <img src="../assets/images/placeholder.png" alt="Dona Moranga Project Image 3">
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <p data-key="footer_text">&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
