@@ -404,3 +404,82 @@ nav a.active {
         max-width: 100%; /* 1 image per row */
     }
 }
+
+/* Add these new styles to your existing CSS file */
+
+.illustration-project {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    margin-bottom: 3rem;
+}
+
+.project-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.project-text h2 {
+    font-size: 2.2rem;
+    color: var(--dark-chocolate);
+    border-bottom: 3px solid var(--pudding-yellow);
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.project-images {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-images h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--caramel-brown);
+    margin-bottom: 1rem;
+}
+
+/* Style for images that trigger the modal */
+.modal-trigger {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-trigger:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Styles for the evolution steps in Formigão project */
+.evolution-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.evolution-step {
+    flex: 1 1 250px; /* Allows items to grow and shrink */
+    max-width: 300px;
+    text-align: center;
+}
+
+.evolution-step p {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--caramel-brown);
+}

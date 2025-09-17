@@ -49,6 +49,19 @@ const translations = {
         dona_moranga_title: "Dona Moranga",
         dona_moranga_desc: "'Dona Moranga' is a brand of artisanal pumpkin jams and sweets. The branding and packaging design focused on a rustic, homemade aesthetic, using organic elements and warm colors to evoke a sense of tradition and delicious, natural flavor.",
 
+        // --- Personal Projects Subpage ---
+        personal_projects_title: "Personal Projects",
+        formigao_title: "Formigão: Children's Animation for Gender Equality",
+        formigao_desc_p1: "\"Formigão\" was an original project I developed for my \"Visual Culture\" class at university. It's a children's animation initiative that uses QR code posters, displayed in kid-friendly spaces, to encourage the consumption of media that portrays gender more equitably.",
+        formigao_desc_p2: "The goal is simple: Present boys and girls in more balanced roles. Female characters are depicted as courageous and independent, while male characters are shown expressing emotions, vulnerability, and care.",
+        formigao_desc_p3: "I chose the name \"Formigão\" because it’s memorable, playful, and connects with the audience. The symbolism of ants (perseverance, teamwork, and cooperation) perfectly reflects the core values of gender equality. The augmentative form reinforces the idea that, even through small actions, we can make a huge impact when we work together.",
+        formigao_desc_p4: "To promote this concept, I created a concept art poster. The piece aims to capture young audiences' attention and spark reflection on gender stereotypes. Entirely illustrated and digitally painted by me, the scene features a strong female character and a boy who is comfortable expressing fear. A QR code on the poster links to an informative PDF about the effects of gender stereotypes in childhood, along with a curated list of inclusive films and animated series.",
+        formigao_step1_caption: "Step 1: Initial Sketch",
+        formigao_step2_caption: "Step 2: Line Art & Base Colors",
+        formigao_step3_caption: "Step 3: Final Rendering",
+        porkymon_title: "Porky and Mon - Original Characters",
+        porkymon_desc_p1: "For the past two years, I've been designing the characters Porky, the mini pig, and Mon, the bear. Their designs have evolved considerably, much like my own skills.",
+        porkymon_desc_p2: "Drawing comics of them has been really fun and fulfilling, as I've been learning to visually communicate better through it. I believe that as long as I'm satisfied with my work, I stay motivated. That's why personal projects are so important to me—they help me navigate through creative blocks and solve design problems.",
     },
     es: {
         // --- General ---
@@ -100,6 +113,19 @@ const translations = {
         dona_moranga_title: "Dona Moranga",
         dona_moranga_desc: "'Dona Moranga' es una marca de mermeladas y dulces artesanales de calabaza. El diseño de branding y empaque se centró en una estética rústica y casera, utilizando elementos orgánicos y colores cálidos para evocar una sensación de tradición y un delicioso sabor natural.",
 
+        // --- Personal Projects Subpage ---
+        personal_projects_title: "Proyectos Personales",
+        formigao_title: "Formigão: Animación Infantil por la Igualdad de Género",
+        formigao_desc_p1: "\"Formigão\" fue un proyecto original que desarrollé para mi clase de \"Cultura Visual\" en la universidad. Es una iniciativa de animación infantil que utiliza carteles con códigos QR, exhibidos en espacios para niños, para fomentar el consumo de medios que representan el género de manera más equitativa.",
+        formigao_desc_p2: "El objetivo es simple: presentar a niños y niñas en roles más equilibrados. Los personajes femeninos se representan como valientes e independientes, mientras que los personajes masculinos se muestran expresando emociones, vulnerabilidad y cuidado.",
+        formigao_desc_p3: "Elegí el nombre \"Formigão\" porque es memorable, lúdico y conecta con el público. El simbolismo de las hormigas (perseverancia, trabajo en equipo y cooperación) refleja perfectamente los valores centrales de la igualdad de género. La forma aumentativa refuerza la idea de que, incluso a través de pequeñas acciones, podemos lograr un gran impacto cuando trabajamos juntos.",
+        formigao_desc_p4: "Para promover este concepto, creé un póster de arte conceptual. La pieza busca captar la atención del público joven y generar una reflexión sobre los estereotipos de género. Totalmente ilustrada y pintada digitalmente por mí, la escena presenta un personaje femenino fuerte y un niño que se siente cómodo expresando miedo. Un código QR en el póster enlaza a un PDF informativo sobre los efectos de los estereotipos de género en la infancia, junto con una lista seleccionada de películas y series animadas inclusivas.",
+        formigao_step1_caption: "Paso 1: Boceto Inicial",
+        formigao_step2_caption: "Paso 2: Line Art y Colores Base",
+        formigao_step3_caption: "Paso 3: Renderizado Final",
+        porkymon_title: "Porky y Mon - Personajes Originales",
+        porkymon_desc_p1: "Durante los últimos dos años, he estado diseñando los personajes Porky, el mini cerdo, y Mon, el oso. Sus diseños han evolucionado considerablemente, al igual que mis propias habilidades.",
+        porkymon_desc_p2: "Dibujar cómics sobre ellos ha sido muy divertido y gratificante, ya que he aprendido a comunicarme mejor visualmente a través de ello. Creo que mientras esté satisfecha con mi trabajo, me mantengo motivada. Por eso los proyectos personales son tan importantes para mí: me ayudan a superar bloqueos creativos y a resolver problemas de diseño.",
     },
     pt: {
         // --- General ---
@@ -151,6 +177,19 @@ const translations = {
         dona_moranga_title: "Dona Moranga",
         dona_moranga_desc: "'Dona Moranga' é uma marca de doces e geleias artesanais de abóbora. O design de branding e embalagem focou em uma estética rústica e caseira, usando elementos orgânicos e cores quentes para evocar um senso de tradição e sabor delicioso e natural.",
 
+        // --- Personal Projects Subpage ---
+        personal_projects_title: "Projetos Pessoais",
+        formigao_title: "Formigão: Animação Infantil pela Igualdade de Gênero",
+        formigao_desc_p1: "\"Formigão\" foi um projeto autoral que desenvolvi para a disciplina de \"Cultura Visual\" na faculdade. Trata-se de uma iniciativa de animação infantil que utiliza cartazes com QR codes, expostos em espaços para crianças, para incentivar o consumo de mídias que retratam o gênero de forma mais equitativa.",
+        formigao_desc_p2: "O objetivo é simples: apresentar meninos e meninas em papéis mais equilibrados. Personagens femininas são retratadas como corajosas e independentes, enquanto personagens masculinos são mostrados expressando emoções, vulnerabilidade e cuidado.",
+        formigao_desc_p3: "Escolhi o nome \"Formigão\" por ser memorável, lúdico e por criar uma conexão com o público. O simbolismo das formigas (perseverança, trabalho em equipe e cooperação) reflete perfeitamente os valores centrais da igualdade de gênero. A forma aumentativa reforça a ideia de que, mesmo através de pequenas ações, podemos causar um grande impacto quando trabalhamos juntos.",
+        formigao_desc_p4: "Para promover esse conceito, criei um pôster de concept art. A peça busca capturar a atenção do público jovem e gerar reflexão sobre estereótipos de gênero. Inteiramente ilustrada e pintada digitalmente por mim, a cena apresenta uma personagem feminina forte e um menino que se sente confortável em expressar medo. Um QR code no cartaz leva a um PDF informativo sobre os efeitos dos estereótipos de gênero na infância, além de uma lista com curadoria de filmes e séries de animação inclusivos.",
+        formigao_step1_caption: "Etapa 1: Esboço Inicial",
+        formigao_step2_caption: "Etapa 2: Line Art e Cores Base",
+        formigao_step3_caption: "Etapa 3: Renderização Final",
+        porkymon_title: "Porky e Mon - Personagens Originais",
+        porkymon_desc_p1: "Nos últimos dois anos, venho desenvolvendo os personagens Porky, o mini porco, e Mon, o urso. Seus designs evoluíram consideravelmente, assim como minhas próprias habilidades.",
+        porkymon_desc_p2: "Desenhar quadrinhos deles tem sido muito divertido e gratificante, pois venho aprendendo a me comunicar melhor visualmente através disso. Acredito que, enquanto estou satisfeita com meu trabalho, permaneço motivada. É por isso que projetos pessoais são tão importantes para mim — eles me ajudam a superar bloqueios criativos e a resolver problemas de design.",
     }
 };
 
@@ -165,7 +204,7 @@ const translatePage = () => {
     const language = localStorage.getItem('language') || 'pt'; // Default to Portuguese
     document.querySelectorAll('[data-key]').forEach(element => {
         const key = element.getAttribute('data-key');
-        if (translations[language][key]) {
+        if (translations[language] && translations[language][key]) {
             element.textContent = translations[language][key];
         }
     });

@@ -32,22 +32,59 @@
     </header>
 
     <main class="container">
-        <h1 data-key="personal_projects_title">Personal Projects Gallery</h1>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="../assets/images/placeholder.png" alt="Personal Project">
-                <div class="overlay">
-                    <h3 data-key="personal1_title">Project Title 1</h3>
-                    <p data-key="personal1_desc">A short description of this personal project.</p>
+        <h1 data-key="personal_projects_title">Personal Projects</h1>
+
+        <section class="illustration-project">
+            <div class="project-text">
+                <h2 data-key="formigao_title">Formigão: Children's Animation for Gender Equality</h2>
+                <p data-key="formigao_desc_p1">"Formigão" was an original project I developed for my "Visual Culture" class at university. It's a children's animation initiative that uses QR code posters, displayed in kid-friendly spaces, to encourage the consumption of media that portrays gender more equitably.</p>
+                <p data-key="formigao_desc_p2">The goal is simple: Present boys and girls in more balanced roles. Female characters are depicted as courageous and independent, while male characters are shown expressing emotions, vulnerability, and care.</p>
+                <p data-key="formigao_desc_p3">I chose the name "Formigão" because it’s memorable, playful, and connects with the audience. The symbolism of ants (perseverance, teamwork, and cooperation) perfectly reflects the core values of gender equality. The augmentative form reinforces the idea that, even through small actions, we can make a huge impact when we work together.</p>
+                <p data-key="formigao_desc_p4">To promote this concept, I created a concept art poster. The piece aims to capture young audiences' attention and spark reflection on gender stereotypes. Entirely illustrated and digitally painted by me, the scene features a strong female character and a boy who is comfortable expressing fear. A QR code on the poster links to an informative PDF about the effects of gender stereotypes in childhood, along with a curated list of inclusive films and animated series.</p>
+            </div>
+            <div class="project-images">
+                <h3>Process</h3>
+                <div class="evolution-container">
+                    <div class="evolution-step">
+                        <img src="../assets/images/ilustrations/personalprojs/formigao/Projectocv.png" alt="Formigão Step 1: Sketch" class="modal-trigger">
+                        <p data-key="formigao_step1_caption">Step 1: Initial Sketch</p>
+                    </div>
+                    <div class="evolution-step">
+                        <img src="../assets/images/ilustrations/personalprojs/formigao/Projectocv (1).png" alt="Formigão Step 2: Base Colors" class="modal-trigger">
+                        <p data-key="formigao_step2_caption">Step 2: Line Art & Base Colors</p>
+                    </div>
+                    <div class="evolution-step">
+                        <img src="../assets/images/ilustrations/personalprojs/formigao/Cultura visual.jpg" alt="Formigão Step 3: Final" class="modal-trigger">
+                        <p data-key="formigao_step3_caption">Step 3: Final Rendering</p>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <section class="illustration-project">
+            <div class="project-text">
+                <h2 data-key="porkymon_title">Porky and Mon - Original Characters</h2>
+                <p data-key="porkymon_desc_p1">For the past two years, I've been designing the characters Porky, the mini pig, and Mon, the bear. Their designs have evolved considerably, much like my own skills.</p>
+                <p data-key="porkymon_desc_p2">Drawing comics of them has been really fun and fulfilling, as I've been learning to visually communicate better through it. I believe that as long as I'm satisfied with my work, I stay motivated. That's why personal projects are so important to me—they help me navigate through creative blocks and solve design problems.</p>
             </div>
+            <div class="project-images">
+                 <img src="../assets/images/ilustrations/personalprojs/porkymon/Illustration31 (1).png" alt="Porky and Mon illustration 1" class="modal-trigger">
+                <img src="../assets/images/ilustrations/personalprojs/porkymon/print (1).png" alt="Porky and Mon illustration 2" class="modal-trigger">
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
         <p data-key="footer_text">&copy; 2025 Your Name. All Rights Reserved.</p>
     </footer>
 
+    <div id="imageModal" class="modal">
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
     <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/modal.js"></script>
 </body>
 </html>
