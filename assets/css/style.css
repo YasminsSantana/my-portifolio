@@ -30,6 +30,7 @@ header {
     position: sticky;
     overflow: hidden;
     top: 0;
+    z-index: 10;
 
     display: flex;
     justify-content: space-between;
@@ -130,9 +131,10 @@ nav a.active {
 
 /* Gallery Styles */
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers the items horizontally */
+    gap: 1.5rem; /* Keeps the spacing between items */
 }
 
 .gallery-item {
@@ -143,9 +145,9 @@ nav a.active {
 }
 
 .gallery-item img {
-    width: 100%;
+    max-width: 100%; /* Prevents images from being wider than the screen */
     height: auto;
-    display: block;
+    /* display: block; */
     transition: transform 0.4s ease;
 }
 
