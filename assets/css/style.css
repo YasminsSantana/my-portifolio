@@ -152,6 +152,16 @@ nav a.active {
     cursor: pointer;
 }
 
+.vertical-smedia-post {
+    max-width: 200px;
+    height: auto;
+}
+
+.horizontal-smedia-post {
+    max-width: 500px;
+    height: auto;
+}
+
 .gallery-item:hover img {
     transform: scale(1.1);
 }
